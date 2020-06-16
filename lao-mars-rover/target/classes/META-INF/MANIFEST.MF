@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: clotzer
+Build-Jdk: 11.0.7
+Implementation-Title: lao-mars-rover
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.clotzer.marsrover.ws
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+

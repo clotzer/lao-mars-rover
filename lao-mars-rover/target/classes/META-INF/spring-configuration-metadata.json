@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "config",
+      "type": "com.clotzer.marsrover.controller.Config",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.earth-date-format",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.image-query-date-file",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.local-image-list-name",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.local-image-store-path",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.nasa-earth-date-base-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.nasa-key",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.nasa-login",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.query-string-one",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    },
+    {
+      "name": "config.query-string-two",
+      "type": "java.lang.String",
+      "sourceType": "com.clotzer.marsrover.controller.Config"
+    }
+  ],
+  "hints": []
+}

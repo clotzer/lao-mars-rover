@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.clotzer.marsrover.ws.LaoMarsRoverApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.582 s - in com.clotzer.marsrover.ws.LaoMarsRoverApplicationTests
