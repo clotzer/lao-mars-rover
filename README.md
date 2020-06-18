@@ -1,6 +1,6 @@
 Living As One NASA Mars Rover Programming Exercise
 
-I really enjoyed this exercise. I did not have time to complete all aspects of the project such as image display in the web browser, doing performance analysis, code coverage analysis with SonarQube, or complete the Docker file. But I did get some of the unit tests started and I enabled/tested the <b>maven</b> <i>run</i>, <i>test</i> and <i>package</i> capabilities. So it's, by far. not complete.
+I really enjoyed this exercise. I did not have time to complete all aspects of the project such as image display in the web browser, doing performance analysis, code coverage analysis with SonarQube, or complete the Docker file. But I did get some of the unit tests started and I enabled/tested the <b>maven</b> <i>run</i>, <i>test</i> and <i>package</i> capabilities. So it's, by far, not code-complete.
 
 The application dynamically builds the REST webservice URL from the list of dates provided and the API key. From this URL, the application calls the NASA webservice with a HEAD resource and pulls the ETag down and it checks if the image has been moved to a new location using the 301 resource code. Then it checks the local cache file to see if the image has been previously downloaded or if it has changed by comparing the Etag of the cache for the given image ID, if it exists. If it is not found, it downloads the file, placing it in the target directory and updates the cache file. The application follows one level of redirection at this point.
 
